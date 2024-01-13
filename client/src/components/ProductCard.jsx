@@ -64,7 +64,7 @@ const ProductCard = ({ product }) => {
 					</Badge>
 				)}
 			</Box>
-			<Flex mt='1' justifyContent='space-between' alignContent='center'>
+			<Flex mt='1' justifyContent='center' alignContent='center'>
 				<Link as={ReactLink} to={`/product${product._id}`} pt='2' cursor='pointer'>
 					<Box fontSize={"2x1"} fontWeight={"semibold"} lineHeight={"tight"}>
 						{product.name}
